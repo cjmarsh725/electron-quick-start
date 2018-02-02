@@ -1,0 +1,43 @@
+html {
+    -webkit-user-select: none;
+    user-select:none;
+    background-color:#222;
+    color: white;
+}
+
+body {
+    padding: 0px;
+    margin: 4px;
+    min-height: 100%;
+    background-color:#333;
+}
+
+#header-bar {
+    background-color: #222;
+    -webkit-app-region: drag;
+    height:24px;
+    width:100%;
+}
+
+#close-btn {
+    width:20px;
+    height:20px;
+    float:right;
+    -webkit-app-region: no-drag;
+    background-color: #444;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 2px;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#close-btn:hover {
+    background-color: #555;
+    outline: 1px;
+    outline-color: #777;
+}
